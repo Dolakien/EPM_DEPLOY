@@ -19,6 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamProctoringManagement.Da
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8E3F2B81-0402-403E-93BE-943D8C688610}"
 	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
 		..\..\Chuyên Ngành\Kì 7\Backend\.gitignore = ..\..\Chuyên Ngành\Kì 7\Backend\.gitignore
 	EndProjectSection
 EndProject

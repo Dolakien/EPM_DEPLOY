@@ -1,0 +1,11 @@
+﻿version: '3.8'  # Hoặc phiên bản mới hơn nếu cần
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: ExamProctoringManagement.API/Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
