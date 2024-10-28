@@ -1,0 +1,8 @@
+[build]
+builder = "dockerfile"
+dockerfilePath = "./ExamProctoringManagement.API/Dockerfile"
+
+[deploy]
+startCommand = "./ExamProctoringManagement.API"
+restartPolicyType = "always"
+healthcheckPath = "/health
