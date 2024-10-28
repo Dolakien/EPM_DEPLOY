@@ -91,6 +91,10 @@ builder.Services.AddScoped<SubjectDAO>();
 //    options.SwaggerDoc("v1", new OpenApiInfo { Title = "Exam Proctoring Management API", Version = "v1" });
 //});
 
+builder.Services.AddHttpsRedirection(options =>
+{
+    options.HttpsPort = 443; // Hoặc cổng bạn đã cấu hình cho HTTPS
+});
 
 
 var app = builder.Build();
